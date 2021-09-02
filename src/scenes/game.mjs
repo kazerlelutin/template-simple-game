@@ -28,7 +28,7 @@ export default function Game() {
     player.move(constants.moveSpeed, 0);
   });
 
-  //Return in home with Mithril Router
+  //Return in home
   keyPress("r", () => {
     go(scenesName.title);
   });
